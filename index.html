@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 1 Subdiv Pemrograman Amel</title>
+    <style>
+        
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #e8f5e9; 
+            padding: 50px; 
+        }
+        .container { 
+            background: white; 
+            width: 300px; 
+            margin: auto; 
+            padding: 20px; 
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h3 { text-align: center; color: #2e7d32; }
+        label { font-weight: bold; display: block; margin-top: 10px; }
+        
+        
+        .input-box { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+        
+       
+        .btn { 
+            width: 100%; 
+            padding: 10px; 
+            background-color: #2e7d32; 
+            color: white; 
+            border: none; 
+            margin-top: 20px; 
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h3>Data Mahasiswa</h3>
+        <form>
+            <label>Nama Lengkap:</label>
+            <input type="text" class="input-box" placeholder="Contoh: Budi">
+
+            <label>Umur:</label>
+            <input type="number" class="input-box">
+
+            <label>Jenis Kelamin:</label>
+            <input type="radio" name="jk" id="l"> <label style="display:inline; font-weight:normal;" for="l">Laki-laki</label>
+            <input type="radio" name="jk" id="p"> <label style="display:inline; font-weight:normal;" for="p">Perempuan</label>
+
+            <button type="submit" class="btn">Simpan Data</button>
+        </form>
+    </div>
+
+</body>
+</html>
